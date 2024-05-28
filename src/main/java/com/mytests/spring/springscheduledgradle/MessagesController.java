@@ -18,7 +18,7 @@ public class MessagesController {
 
     @GetMapping("/all")
     public List<Messages> all() {
-        List<Messages> messagesList = messagesRepository.findAll();
+        List<Messages> messagesList = (List<Messages>) messagesRepository.findAll();
         System.out.println(messagesList.size());
         return messagesList;
 

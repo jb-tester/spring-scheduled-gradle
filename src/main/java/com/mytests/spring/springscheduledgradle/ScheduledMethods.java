@@ -33,5 +33,5 @@ public class ScheduledMethods {
         System.out.println("+++++++++");
     }
 
-    ;
+
 }
